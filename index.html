@@ -3,15 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Web App</title>
+    <title>My Professional Web App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple static web app deployed on Azure.</p>
-    
-    <button onclick="showMessage()">Click Me</button>
+    <header>
+        <nav>
+            <h1>My Brand</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <script src="./script.js" defer></script>
+    <section id="home">
+        <h2>Welcome to My Professional Website</h2>
+        <p>This is a modern, responsive design with smooth animations.</p>
+        <button onclick="showMessage()">Get Started</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We create professional and modern web applications using the latest technologies.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@mywebsite.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 My Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
